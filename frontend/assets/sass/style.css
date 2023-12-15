@@ -57,69 +57,42 @@ Version:        1.0.0
 	Fonts
 ----------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&amp;display=swap");
- HEAD
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("../fonts/FuturaPT-Demi.woff2") format("woff2"), url("../fonts/FuturaPT-Demi.woff") format("woff");
- 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@100&display=swap');
 @font-face {
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Demi.woff2") format("woff2"), url("../fonts/Roboto-Demi.woff") format("woff");
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
- HEAD
-  font-family: 'Futura PT';
-  src: url("../fonts/FuturaPT-DemiObl.woff2") format("woff2"), url("../fonts/FuturaPT-DemiObl.woff") format("woff");
- 
   font-family: 'Roboto';
   src: url("../fonts/Roboto-DemiObl.woff2") format("woff2"), url("../fonts/Roboto-DemiObl.woff") format("woff");
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-weight: 600;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
- HEAD
-  font-family: 'Futura PT';
-  src: url("../fonts/FuturaPT-Heavy.woff2") format("woff2"), url("../fonts/FuturaPT-Heavy.woff") format("woff");
- 
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Heavy.woff2") format("woff2"), url("../fonts/Roboto-Heavy.woff") format("woff");
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
- HEAD
-  font-family: 'Futura PT';
-  src: url("../fonts/FuturaPT-Light.woff2") format("woff2"), url("../fonts/FuturaPT-Light.woff") format("woff");
- 
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
- HEAD
-  font-family: 'Futura PT';
-  src: url("../fonts/FuturaPT-Medium.woff2") format("woff2"), url("../fonts/FuturaPT-Medium.woff") format("woff");
- 
   font-family: 'Roboto';
   src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -164,11 +137,7 @@ h4,
 h5,
 h6 {
   color: #232f4b;
- HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
 }
 
 ul {
@@ -456,11 +425,7 @@ a:hover {
   -webkit-backface-visibility: hidden;
   z-index: 1;
   position: relative;
-HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-size: 20px;
   font-size: 1.33333rem;
 }
@@ -794,11 +759,7 @@ HEAD
   color: #fff;
   position: relative;
   font-size: 20px;
- HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
 }
 
 @media (max-width: 767px) {
@@ -1111,11 +1072,7 @@ HEAD
 }
 
 .blog-sidebar .about-widget a {
-HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-size: 14px;
   font-size: 0.93333rem;
   color: #232f4b;
@@ -1438,11 +1395,7 @@ HEAD
 }
 
 .pagination-wrapper .pg-pagination li {
-HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   float: left;
   margin-right: 10px;
 }
@@ -2248,11 +2201,7 @@ HEAD
     padding: 35px 20px;
     display: block;
     color: #232f4b;
- HEAD
-    font-family: 'Futura PT';
- 
     font-family: 'Roboto';
-  5272132797c4afe7b950d78f19fb81c2334a7c69
     font-weight: 500;
     position: relative;
   }
@@ -2280,11 +2229,7 @@ HEAD
     position: relative;
     overflow: hidden;
     font-weight: 500;
-  HEAD
-    font-family: "Futura PT";
- 
     font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   }
   .wpo-site-header #navbar > ul > li .sub-menu a:after {
     position: absolute;
@@ -3212,11 +3157,7 @@ HEAD
   color: #fff;
   margin: 0;
   position: relative;
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-weight: 700;
 }
 
@@ -3790,11 +3731,7 @@ HEAD
 
 .wpo-blog-highlights-section .wpo-blog-highlights-wrap .wpo-blog-item .wpo-blog-content h2 {
   font-size: 20px;
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   margin-bottom: 20px;
   line-height: 30px;
   font-weight: 700;
@@ -3963,11 +3900,7 @@ HEAD
 
 .wpo-blog-sponsored-section .wpo-blog-sponsored-wrap .wpo-blog-item .wpo-blog-content h2 {
   font-size: 20px;
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   margin-bottom: 20px;
   line-height: 30px;
   font-weight: 700;
@@ -4472,9 +4405,9 @@ HEAD
   background: #2a2b34;
 }
 
-/*   ======
+/*===========================
 7. wpo-cart-page-style
-   ======*/
+===========================*/
 .cart-area .cart-wrapper {
   -webkit-box-shadow: 0px 5px 15px 0px rgba(68, 68, 68, 0.1);
           box-shadow: 0px 5px 15px 0px rgba(68, 68, 68, 0.1);
@@ -4781,9 +4714,9 @@ HEAD
   font-weight: 600;
 }
 
-/*    ===
+/*===============================
 8. wpo-checkout-page-style
-    ====*/
+================================*/
 .wpo-checkout-area .checkout-wrap {
   background: #fff;
 }
@@ -5669,11 +5602,7 @@ HEAD
 }
 
 .wpo-shop-single-section .product-info .nav-tabs {
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   border: 0;
 }
 
@@ -6156,11 +6085,7 @@ HEAD
   text-decoration: underline;
   color: #444444;
   text-transform: uppercase;
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-size: 16px;
 }
 
@@ -6646,11 +6571,7 @@ HEAD
 }
 
 .wpo-blog-single-section .tag-share .tag > span, .wpo-blog-single-section .tag-share-s2 .tag > span {
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   color: #232f4b;
   font-weight: 600;
   display: inline-block;
@@ -6741,11 +6662,7 @@ HEAD
 }
 
 .wpo-blog-single-section .author-box .author-name {
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-size: 24px;
   font-size: 1.6rem;
   font-weight: 600;
@@ -6894,11 +6811,7 @@ HEAD
 }
 
 .wpo-blog-single-section .more-posts .post-name {
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-size: 18px;
   font-size: 1.2rem;
   color: #232f4b;
@@ -6981,7 +6894,7 @@ HEAD
 }
 
 .wpo-blog-single-section .comments-area .comment-main-area {
-  padding-left: 100px;
+  padding-left: 1rem;
 }
 
 @media (max-width: 767px) {
@@ -6996,11 +6909,7 @@ HEAD
 }
 
 .wpo-blog-single-section .comments-area .comments-meta h4 {
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-size: 18px;
   font-size: 1.2rem;
   color: #232f4b;
@@ -7026,11 +6935,7 @@ HEAD
 }
 
 .wpo-blog-single-section .comments-area .comment-reply-link {
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   font-size: 14px;
   font-size: 0.93333rem;
   font-weight: 600;
@@ -7137,11 +7042,7 @@ HEAD
 }
 
 .wpo-blog-single-section .comment-respond .form-submit input {
-  HEAD
-  font-family: "Futura PT";
- 
   font-family: "Roboto";
-  5272132797c4afe7b950d78f19fb81c2334a7c69
   max-width: 180px;
   background-color: #1e2845;
   color: #fff;

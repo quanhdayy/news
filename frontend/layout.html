@@ -20,27 +20,18 @@
                 <div class="col-lg-8 col-md-1 col-1">
                     <div id="navbar" class="collapse navbar-collapse navigation-holder">
                         <button class="menu-close"><i class="ti-close"></i></button>
-                        <ul class="nav navbar-nav mb-2 mb-lg-0">
+                        <ul class="nav navbar-nav mb-2 mb-lg-0 menu__nav">
                             <li class="menu-item-has-children">
-                                <a href="index.html">Trang chủ</a>
+                                <a href="index.html">Nóng</a>
                             </li>
-                            <li class="menu-item-has-children">
+                            <!-- <li class="menu-item-has-children">
                                 <a href="#">Pages</a>
                                 <ul class="sub-menu">
                                     <li><a href="contact.html">Liên hệ</a></li>
                                     <li><a href="login.html">Đăng nhập</a></li>
                                     <li><a href="register.html">Đăng ký</a></li>
                                 </ul>
-                            </li>
-                            <li><a href="news.html">Thời sự</a></li>
-                            <li><a href="foods.html">Ẩm thực</a></li>
-                            <li><a href="business.html">Kinh doanh</a></li>
-                            <li><a href="travels.html">Du lịch</a></li>
-                            <li><a href="blog.html">Giải trí</a></li>
-                        </ul>
-                        </li>
-                        </ul>
-                        </li>
+                            </li> -->
                         </ul>
                     </div><!-- end of nav-collapse -->
                 </div>
@@ -48,25 +39,36 @@
                     <div class="header-right">
                         <div class="header-search-form-wrapper">
                             <div class="cart-search-contact">
-                                <button class="search-toggle-btn"><i class="fi flaticon-magnifiying-glass"></i></button>
-                                <div class="header-search-form">
-                                    <form>
-                                        <div>
-                                            <input type="text" class="form-control" placeholder="Search here...">
-                                            <button type="submit"><i class="fi flaticon-magnifiying-glass"></i></button>
-                                        </div>
-                                    </form>
-                                </div>
+                                <a href="search.html" class="search-toggle-btn"><i class="fi flaticon-magnifiying-glass"></i></a>
                             </div>
                         </div>
+                        <div class="d-flex header__loginBtn">
+                            <a href="login.html" class="btn btn-primary">Đăng nhập</a>
+                        </div>
+
+                        <div class="btn-group">
+                            <div class="badge bg-primary text-nowrap d-none header__username fs-5 dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false" type="button">
+                            </div>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Cài đặt</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item"
+                                        href="../backend/index.php?controller=user&action=logout">Đăng xuất</a></li>
+                            </ul>
+                        </div>
+                    </div>
     </nav>
+
 </header>
 
 <footer class="wpo-site-footer">
     <div class="wpo-upper-footer">
         <div class="container">
             <div class="row">
-                <div class="col col-lg-3 col-md-6 col-sm-12 col-12">
+                <div class="col-5">
                     <div class="widget about-widget">
                         <div class="logo widget-title">
                             <img src="assets/images/logo2.png" alt="blog">
@@ -80,38 +82,29 @@
                     </div>
                 </div>
 
-                <div class="col col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="col-4">
                     <div class="widget tag-widget">
                         <div class="widget-title">
                             <h3>Browse by Tag </h3>
                         </div>
-                        <ul>
-                            <li><a href="travels.html">Thời sự</a></li>
-                            <li><a href="business.html">Ẩm thực</a></li>
-                            <li><a href="lifestyle.html">Kinh doanh</a></li>
-                            <li><a href="blog.html">Du lịch</a></li>
-                            <li><a href="blog.html">Giải trí</a></li>
+                        <ul class="footer__li">
                         </ul>
                     </div>
                 </div>
 
-                <div class="col col-lg-2 col-md-6 col-sm-12 col-12">
+                <div class="col-2">
                     <div class="widget social-widget">
                         <div class="widget-title">
                             <h3>Social Media</h3>
                         </div>
                         <ul>
-                            <li><a href="https://www.facebook.com/profile.php?id=100080757738085"><i><img
-                                            src="assets/images/ft-icon/1.png" alt=""></i> Facebook</a>
+                            <li><a href="#"><i><img src="assets/images/ft-icon/1.png" alt=""></i> Facebook</a>
                             </li>
-                            <li><a href="https://twitter.com/One_News_Page"><i><img src="assets/images/ft-icon/2.png"
-                                            alt=""></i> Twitter</a>
+                            <li><a href="#"><i><img src="assets/images/ft-icon/2.png" alt=""></i> Twitter</a>
                             </li>
-                            <li><a href="https://instagram.com/1newsph?igshid=MmVlMjlkMTBhMg=="><i><img
-                                            src="assets/images/ft-icon/3.png" alt=""></i> Instagram</a>
+                            <li><a href="#"><i><img src="assets/images/ft-icon/3.png" alt=""></i> Instagram</a>
                             </li>
-                            <li><a href="https://www.youtube.com/@OneNewsPH"><i><img src="assets/images/ft-icon/4.png"
-                                            alt=""></i> Youtube</a>
+                            <li><a href="#"><i><img src="assets/images/ft-icon/4.png" alt=""></i> Youtube</a>
                             </li>
                         </ul>
                     </div>

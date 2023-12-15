@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
-    <title>Bloggar - News Magazine Template</title>
+    <title>Đăng ký</title>
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        <form class="wpo-accountWrapper" action="#">
+                        <form class="wpo-accountWrapper" action="../backend/index.php?controller=user&action=addUser" method="post">
                             <div class="wpo-accountInfo">
                                 <div class="wpo-accountInfoHeader">
                                     <a href="#"><img src="assets/images/logo2.png" alt=""></a>
@@ -78,6 +78,10 @@
                                         <input type="text" id="email" name="email" placeholder="">
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-12">
+                                        <label>Tên đăng nhập</label>
+                                        <input type="text" id="user" name="user" placeholder="">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-12">
                                         <div class="form-group">
                                             <label>Mật khẩu</label>
                                             <input class="pwd2" type="password" placeholder=""
@@ -90,8 +94,8 @@
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-12">
                                         <button type="submit" class="wpo-accountBtn">Đăng ký</button>
-                                        <p class="subText">Bạn đã có tài khoản? <a href="login.html">Đăng nhập</a> </p>
                                     </div>
+                                    <p class="subText">Bạn đã có tài khoản? <a href="login.html">Đăng nhập ngay</a></p>
                                 </div>
                             </div>
                         </form>
